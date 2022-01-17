@@ -10,13 +10,14 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 */
 
 
-/***********Variante 2 ************/
-// Kompaktere Lösung
+/***********Variante 3 ************/
+// Kompakter aber schlecht lesbar
 
 // Deklaration
-let zahl1, zahl2, summe;
+console.log
+(
+    parseFloat(prompt("Bitte Zahl 1 eingeben")) +
+    parseFloat(prompt("Bitte Zahl 2 eingeben"))
+);
 
-zahl1 = parseInt(prompt("Zahl 1:"));
-zahl2 = parseInt(prompt("Zahl 2:"));
-summe = zahl1 + zahl2;
-console.log("Die Summe beträgt:", summe);
+// parseFloat MIT Nachkommastellen !!!!!!
